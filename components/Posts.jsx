@@ -5,7 +5,6 @@ import Post from "./Post";
 
 const Posts = () => {
   const [posts, setPosts] = useState([]);
-
   useEffect(() => {
     const unsubscribe = onSnapshot(
       query(collection(db, "posts"), orderBy("timestamp", "desc")),
