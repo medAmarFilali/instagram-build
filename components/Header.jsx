@@ -69,7 +69,7 @@ const Header = () => {
                 </div>
               </div>
               <PlusCircleIcon
-                className="navBtn"
+                className=" h-6 inline-flex cursor-pointer hover:scale-125 transition-all duration-150 ease-out; "
                 onClick={() => setOpen(true)}
               />
               <UserGroupIcon className="navBtn" />
