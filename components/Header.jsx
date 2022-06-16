@@ -35,7 +35,7 @@ const Header = () => {
         </div>
         <div className="relative inline-grid lg:hidden w-10 cursor-pointer">
           <Image
-            src="/instagram_logo_min.png"
+            src="https://firebasestorage.googleapis.com/v0/b/footballvideogenerator.appspot.com/o/assets%2Finstagram_logo_min.png?alt=media&token=f9802cb5-f5aa-4943-b123-20a2e2c642a4"
             layout="fill"
             objectFit="contain"
             alt="Instagram logo"

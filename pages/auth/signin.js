@@ -9,7 +9,7 @@ const signIn = ({ providers }) => {
       <div className="flex flex-col items-center justify-center h-[calc(100vh - 60px)] ">
         <div className="relative w-64 h-16">
           <Image
-            src="/instagram_logo.png"
+            src="https://firebasestorage.googleapis.com/v0/b/footballvideogenerator.appspot.com/o/assets%2FInstagram_logo.png?alt=media&token=f82b2646-bdf1-4271-b30f-945193dc3824"
             layout="fill"
             objectFit="contain"
             alt="Instagram logo"
