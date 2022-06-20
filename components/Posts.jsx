@@ -20,9 +20,9 @@ const Posts = () => {
 
   return (
     <div>
-      {posts.map((post) => {
-        return <Post key={post.id} post={post} />;
-      })}
+      {posts.map((post) => (
+        <Post key={post.id} post={post} />
+      ))}
     </div>
   );
 };
